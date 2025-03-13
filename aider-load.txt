@@ -1,6 +1,9 @@
 /drop
+/add       CHECKLIST.md
 /add       Cargo.toml
+/add       IMPLEMENTATION.md
 /add       README.md
+/add       ROADMAP.md
 /add       src/handlers/ai.rs
 /add       src/handlers/label.rs
 /add       src/handlers/mod.rs

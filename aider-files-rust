@@ -1,0 +1,19 @@
+/drop
+/add       CHECKLIST.md
+/add       Cargo.toml
+/add       IMPLEMENTATION.md
+/add       README.md
+/add       ROADMAP.md
+/add       src/handlers/ai.rs
+/add       src/handlers/label.rs
+/add       src/handlers/mod.rs
+/add       src/lib.rs
+/add       src/main.rs
+/add       src/models/ai.rs
+/add       src/models/label.rs
+/add       src/models/mod.rs
+/add       src/routes.rs
+/add       src/utils/image.rs
+/add       src/utils/mod.rs
+/add       src/utils/printer.rs
+/add       tests/test_handlers.rs

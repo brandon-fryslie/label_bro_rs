@@ -1,18 +1,22 @@
-use actix_web::{HttpResponse, Responder, Error};
+
+use actix_web::{HttpResponse, Responder};
+use pyo3::prelude::*;
 use pyo3::types::PyTuple;
 
-use pyo3::prelude::*;
-
-
-// pub async fn print_labels() -> impl Responder {
 pub async fn print_labels() -> impl Responder {
     println!("print_labels handler called");
 
     let result = Python::with_gil(|py| {
-        let r_tuple = ("label_text", 696, "full");
-        let args = r_tuple.into_pyobject(py);
+        // Define the tuple with the correct types
+        let r_tuple: (&str, i32, &str) = ("label_text", 696, "full");
+        
+        // Convert the tuple to a PyObject using PyTuple
+        let args = PyTuple::new(py, &[r_tuple.0, r_tuple.1.to_string().as_str(), r_tuple.2]);
 
-        Ok::<_, PyErr>(args)
+        // Debugging statement to check the conversion
+        println!("Python function called with args: {:?}", args);
+
+        Ok::<_, PyErr>(())
     });
 
     match result {
@@ -21,7 +25,7 @@ pub async fn print_labels() -> impl Responder {
             eprintln!("Error constructing Python object: {:?}", e);
             HttpResponse::InternalServerError().body("Failed to print labels")
         }
-    })
+    }
 }
 
 pub async fn index() -> impl Responder {
