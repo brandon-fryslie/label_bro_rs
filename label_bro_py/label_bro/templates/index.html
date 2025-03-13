@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block content %}
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="standard-labels-tab" data-bs-toggle="tab" data-bs-target="#standard-labels" type="button" role="tab" aria-controls="standard-labels" aria-selected="true">Standard Labels</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="ai-image-generation-tab" data-bs-toggle="tab" data-bs-target="#ai-image-generation" type="button" role="tab" aria-controls="ai-image-generation" aria-selected="false">AI Image Generation</button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="settings-tab" data-bs-toggle="tab" data-bs-target="#settings" type="button" role="tab" aria-controls="settings" aria-selected="false">Settings</button>
+    </li>
+</ul>
+
+<div class="tab-content" id="myTabContent">
+    <div class="tab-pane fade show active" id="standard-labels" role="tabpanel" aria-labelledby="standard-labels-tab">
+    <div class="print-button-container">
+        <button class="full-width-button" onclick="printLabels()">Print</button>
+    </div>
+    <div class="print-button-container">
+        <small>Each line defines 1 or more labels.</small><br>
+        <small>Use checkboxes for sizes.</small><br>
+        <small>Use format 'text; number' (e.g. 'My Stuff; 4) to print multiple copies.</small>
+    </div>
+    <div class="main-container">
+        <div class="textarea-container">
+            <form id="labelForm">
+                <label for="printFullLabel" class="checkboxLabel">
+                    <input type="checkbox" id="printFullLabel" name="printFullLabel" value="printSmallLabel" checked>
+                    Big Label?
+                </label>
+                <label for="printSmallLabel" class="checkboxLabel">
+                    <input type="checkbox" id="printSmallLabel" name="printSmallLabel" value="printSmallLabel" checked>
+                    Small Label?
+                </label>
+                <textarea id="labelText" name="labelText" rows="10" cols="50"></textarea>
+            </form>
+        </div>
+    </div>
+    <div class="print-button-container">
+        <button class="full-width-button" onclick="printLabels()">Print</button>
+    </div>
+    <p id="waiting"></p>
+</div>
+
+<div class="tab-pane fade" id="ai-image-generation" role="tabpanel" aria-labelledby="ai-image-generation-tab">
+    <div class="print-button-container">
+        <button class="full-width-button" onclick="printAIGeneratedImage()">Print</button>
+    </div>
+    <div class="ai-generate-container">
+        <div class="ai-input-container">
+            <textarea id="aiText" name="aiText" rows="5" cols="50" placeholder="Enter your prompt here...">generate an image of a dog</textarea>
+            <button class="full-width-button" onclick="submitAIText()">Submit</button>
+        </div>
+    </div>
+    <div class="print-button-container">
+        <button class="full-width-button" onclick="printAIGeneratedImage()">Print</button>
+    </div>
+</div>
+
+<div class="tab-pane fade" id="settings" role="tabpanel" aria-labelledby="settings-tab">
+<div class="print-button-container">
+    <button class="full-width-button" onclick="discoverPrinters()">Discover Printers</button>
+</div>
+<div class="print-button-container">
+    <select id="printerSelect" class="form-select">
+        <option value="">Select a printer</option>
+    </select>
+</div>
+<div class="print-button-container">
+    <p id="mediaType" class="text-muted">Media Type: <span id="mediaTypeValue">N/A</span></p>
+</div>
+</div>
+
+<p id="response" class="response-log"></p>
+
+<div class="previews-container">
+    <h2>Preview</h2>
+    <div id="labelPreviews" class="flex-container">
+        <!-- Images will be dynamically inserted here -->
+    </div>
+</div>
+
+<div id="apiResponseLog" class="api-response-log"></div>
+{% endblock %}

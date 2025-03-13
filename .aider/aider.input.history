@@ -1,0 +1,115 @@
+
+# 2025-03-11 21:26:06.643612
++implement the program as defined in README.md.  Use the docs here: https://docs.rs/actix/latest/actix/
+
+# 2025-03-11 21:27:40.396770
++n
+
+# 2025-03-11 21:27:42.114070
++implement the program as defined in README.md.  Use the docs here: https://docs.rs/actix/latest/actix/
+
+# 2025-03-11 21:31:40.967116
++/add label_bro_py/README.md
+
+# 2025-03-11 21:33:13.674541
++/add label_bro_py/label_bro/**/*.py
+
+# 2025-03-11 21:34:01.155606
++/voice
+
+# 2025-03-11 22:17:36.364969
++/add README.md
+
+# 2025-03-11 22:17:43.254635
++/add label_bro_py
+
+# 2025-03-11 22:19:24.070567
++/add README.md
+
+# 2025-03-11 22:19:32.468504
++/add label_bro_py/
+
+# 2025-03-11 22:20:50.082661
++/voice
+
+# 2025-03-11 22:21:50.774061
++Our goal is to implement this Python application in the labelbro.py folder. We need to re-implement that in Rust. Use the Action Framework and use a standard Rust layout for the file structure.
+
+# 2025-03-11 22:22:39.614489
++no
+
+# 2025-03-11 22:55:35.293436
++───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
++architect> Our goal is to implement this Python application in the labelbro.py folder. We need to re-implement that in Rust. Use the Action Framework and use a standard Rust layout for the fi
++. le structure.
+
+# 2025-03-11 22:55:41.773244
++/add 
+
+# 2025-03-11 22:55:44.357612
++/add *
+
+# 2025-03-11 22:55:52.950502
++/add label_bro
+
+# 2025-03-11 22:55:55.109733
++n
+
+# 2025-03-11 22:55:59.099180
++/add label_bro_py
+
+# 2025-03-11 22:56:08.670652
++/git add label_bro_py
+
+# 2025-03-11 22:56:12.151606
++/add label_bro_py
+
+# 2025-03-11 22:56:30.895981
++───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
++architect> Our goal is to implement this Python application in the labelbro.py folder. We need to re-implement that in Rust. Use the Action Framework and use a standard Rust layout for the fi
++. le structure.
+
+# 2025-03-11 23:03:56.068508
++a
+
+# 2025-03-11 23:04:19.536030
++how are tests usually done in rust?  Can you set up a standard basic test suite for me?
+
+# 2025-03-11 23:05:23.376084
++Are we missing test coverage?  Does it make more sense to keep unit tests in separate files as well?
+
+# 2025-03-11 23:06:25.144733
++Can you expand the test coverage to make sure everything is tested and we've covered the edge cases?
+
+# 2025-03-11 23:07:17.006318
++/add 
+
+# 2025-03-11 23:07:20.860368
++/add src
+
+# 2025-03-11 23:07:28.720616
++cat src/main.rs
+
+# 2025-03-11 23:07:38.275861
++n
+
+# 2025-03-11 23:07:45.633899
++ls
+
+# 2025-03-11 23:07:49.644082
++/ls
+
+# 2025-03-11 23:08:42.397405
++/run mv label_bro_rs/src/utils src 
+
+# 2025-03-11 23:08:45.891511
++n]
+
+# 2025-03-11 23:08:46.841915
++n
+
+# 2025-03-11 23:08:49.873074
++/ls
+
+# 2025-03-11 23:09:39.238524
++/ask can you give me a rundown of the standard rust projoect structure?  

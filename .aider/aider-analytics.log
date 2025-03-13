@@ -1,0 +1,80 @@
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749817}
+{"event": "repo", "properties": {"num_files": 0}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749817}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749818}
+{"event": "exit", "properties": {"reason": "Completed main CLI coder.run"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749831}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749834}
+{"event": "repo", "properties": {"num_files": 0}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749834}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741749834}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750048}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 304, "completion_tokens": 104, "total_tokens": 408, "cost": 0.0018000000000000002, "total_cost": 0.0018000000000000002}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750056}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750082}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 1972, "completion_tokens": 496, "total_tokens": 2468, "cost": 0.00989, "total_cost": 0.011689999999999999}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750093}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750110}
+{"event": "message_send", "properties": {"main_model": "openai/gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "None", "edit_format": "editor-diff", "prompt_tokens": 2236, "completion_tokens": 387, "total_tokens": 2623, "cost": 0.00946, "total_cost": 0.02115}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750119}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750301}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750393}
+{"event": "command_voice", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750441}
+{"event": "command_voice", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750519}
+{"event": "exit", "properties": {"reason": "Completed main CLI coder.run"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750521}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750528}
+{"event": "repo", "properties": {"num_files": 35}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750528}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741750529}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753043}
+{"event": "repo", "properties": {"num_files": 35}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753043}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753044}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753056}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753063}
+{"event": "exit", "properties": {"reason": "Completed main CLI coder.run"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753158}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753160}
+{"event": "repo", "properties": {"num_files": 22}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753160}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753161}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753164}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753172}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753243}
+{"event": "repo", "properties": {"num_files": 22}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753243}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753244}
+{"event": "command_voice", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753250}
+{"event": "command_voice", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753285}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753310}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 4746, "completion_tokens": 961, "total_tokens": 5707, "cost": 0.021475, "total_cost": 0.021475}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741753336}
+{"event": "launched", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755331}
+{"event": "repo", "properties": {"num_files": 4}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755332}
+{"event": "cli session", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "diff"}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755332}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755335}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755341}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755344}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755353}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755359}
+{"event": "command_git", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755368}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755372}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755390}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 20780, "completion_tokens": 751, "total_tokens": 21531, "cost": 0.059460000000000006, "total_cost": 0.059460000000000006}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755412}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755422}
+{"event": "message_send", "properties": {"main_model": "openai/gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "None", "edit_format": "editor-diff", "prompt_tokens": 19095, "completion_tokens": 1036, "total_tokens": 20131, "cost": 0.0580975, "total_cost": 0.11755750000000001}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755446}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755859}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 18974, "completion_tokens": 506, "total_tokens": 19480, "cost": 0.05249500000000001, "total_cost": 0.17005250000000002}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755872}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755889}
+{"event": "message_send", "properties": {"main_model": "openai/gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "None", "edit_format": "editor-diff", "prompt_tokens": 18995, "completion_tokens": 317, "total_tokens": 19312, "cost": 0.0506575, "total_cost": 0.22071000000000002}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755898}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755923}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 19710, "completion_tokens": 430, "total_tokens": 20140, "cost": 0.053575000000000005, "total_cost": 0.274285}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755934}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755941}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 20226, "completion_tokens": 347, "total_tokens": 20573, "cost": 0.05403500000000001, "total_cost": 0.32832}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755950}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755954}
+{"event": "message_send", "properties": {"main_model": "openai/gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "None", "edit_format": "editor-diff", "prompt_tokens": 18999, "completion_tokens": 276, "total_tokens": 19275, "cost": 0.050257500000000004, "total_cost": 0.3785775}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755962}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741755985}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 20705, "completion_tokens": 761, "total_tokens": 21466, "cost": 0.0593725, "total_cost": 0.43795}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756003}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756008}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 21533, "completion_tokens": 156, "total_tokens": 21689, "cost": 0.055392500000000004, "total_cost": 0.4933425}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756013}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756015}
+{"event": "message_send", "properties": {"main_model": "openai/gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "None", "edit_format": "editor-diff", "prompt_tokens": 18991, "completion_tokens": 471, "total_tokens": 19462, "cost": 0.052187500000000005, "total_cost": 0.5455300000000001}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756024}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756037}
+{"event": "command_add", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756040}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756048}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "architect", "prompt_tokens": 22008, "completion_tokens": 203, "total_tokens": 22211, "cost": 0.057050000000000003, "total_cost": 0.6025800000000001}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756055}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756065}
+{"event": "command_ls", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756069}
+{"event": "command_run", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756122}
+{"event": "command_ls", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756129}
+{"event": "command_ask", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756179}
+{"event": "message_send_starting", "properties": {}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756179}
+{"event": "message_send", "properties": {"main_model": "gpt-4o", "weak_model": "gpt-4o-mini", "editor_model": "openai/gpt-4o", "edit_format": "ask", "prompt_tokens": 22065, "completion_tokens": 541, "total_tokens": 22606, "cost": 0.0605725, "total_cost": 0.6631525000000001}, "user_id": "c1183bde-5b74-4c32-99ff-2f785aef7efe", "time": 1741756194}
