@@ -2,6 +2,7 @@ use actix_files as fs;
 use actix_web::{web, App, HttpServer, HttpResponse, Result};
 use tera::{Tera, Context};
 mod routes;
+mod python_bridge;
 mod handlers;
 mod models;
 mod utils;
@@ -16,6 +17,9 @@ async fn index(tera: web::Data<Tera>) -> Result<HttpResponse> {
 }
 #[actix_rt::main]
 async fn main() -> std::io::Result<()> {
+    // Initialize the Python interpreter
+    pyo3::prepare_freethreaded_python();
+
     let tera = Tera::new("templates/**/*").unwrap();
 
     HttpServer::new(move || {

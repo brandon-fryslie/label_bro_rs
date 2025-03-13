@@ -11,6 +11,7 @@ actix-rt = "2.5"
 serde = { version = "1.0", features = ["derive"] }
 serde_json = "1.0"
 futures = "0.3"
-actix = "0.12"
-image = "0.24"
-base64 = "0.21"
+actix = "0.13.5"  # Updated to latest version
+image = "0.25.5"  # Updated to latest version
+base64 = "0.22.1" # Updated to latest version
+pyo3 = { version = "0.24.0", features = ["abi3", "auto-initialize"] } # Updated to latest version
