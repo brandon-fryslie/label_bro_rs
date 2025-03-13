@@ -63,3 +63,24 @@ actix = "0.12"
 ```
 
 3. **Run the program**: Use `cargo run` to execute the program.
+````
+
+## Running Tests
+
+To run the tests for your Rust project, you can use the following command:
+
+```bash
+cargo test
+```
+
+This command will compile your project and run all the tests defined in your `tests` directory and any test modules within your source files.
+
+If you want to run a specific test or a subset of tests, you can use the `--test` flag followed by the test name. For example:
+
+```bash
+cargo test test_index
+```
+
+This will run only the test named `test_index`.
+
+If you encounter any issues or need further customization, feel free to ask!

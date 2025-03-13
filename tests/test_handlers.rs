@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use crate::routes;
     use actix_web::{test, App};
 
     #[actix_web::test]
