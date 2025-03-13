@@ -1,6 +1,6 @@
 #[cfg(test)]
 mod tests {
-    use crate::routes;
+    use label_bro_rs::routes;
     use actix_web::{test, App};
 
     #[actix_web::test]

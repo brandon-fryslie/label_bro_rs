@@ -1,5 +1,5 @@
 use actix_web::{test, App};
-use crate::routes::init;
+use label_bro_rs::routes::init;
 
 #[actix_web::test]
 async fn test_index() {
